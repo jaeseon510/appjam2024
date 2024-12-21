@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 편의점 추천</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <div class="chat-container">
+    <!-- <header class="chat-header">
+      <h1>AI 편의점 추천</h1>
+    </header> -->
+    <div id="chat-box" class="chat-box">
+      <!-- Chat messages will appear here -->
+    </div>
+    <div class="chat-input">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="추천 받고 싶은 조합을 물어보세요!"
+      />
+      <button id="send-btn" onclick="handleUserMessage()">▶</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
