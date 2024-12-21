@@ -62,7 +62,7 @@ function handleUserMessage() {
           "이런 조합은 어떠세요? 육개장 사발면 + 참치마요삼각김밥",
           true
         );
-      }, 2000);
+      }, 10);
     }
   }
   
@@ -80,12 +80,10 @@ function handleUserMessage() {
   
       // Add example images
       const img1 = document.createElement("img");
-      img1.src = "https://via.placeholder.com/80";
       img1.alt = "육개장 사발면";
       imageContainer.appendChild(img1);
   
       const img2 = document.createElement("img");
-      img2.src = "https://via.placeholder.com/80";
       img2.alt = "참치마요삼각김밥";
       imageContainer.appendChild(img2);
   
