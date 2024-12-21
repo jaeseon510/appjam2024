@@ -33,8 +33,8 @@ function goBack() {
     document.getElementById("main-container").classList.remove("hidden");
 }  
 
-document.getElementById('jojinse-link').addEventListener('click', function(event) {
-    window.location.href = 'jojin/jo.html';
+document.querySelector('.heart-icon').addEventListener('click', function() {
+  this.classList.toggle('active');
 });
 
 function handleUserMessage() {
